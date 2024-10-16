@@ -1,0 +1,327 @@
+
+
+p{
+  letter-spacing: 1px;
+  
+}
+
+
+.background{
+
+  padding: 0;
+ 
+  color: #404951;
+
+
+}
+
+
+
+header{
+
+  padding-bottom: 100px;
+}
+
+.background::before{
+  content: "";
+  display: block;
+  width: 100%;
+  background-repeat: no-repeat;
+  top: 0;
+  height: 112px;
+  left: 0;
+  background-image: url("../img/.png");
+  position: absolute;
+ 
+}
+
+
+
+
+.nomes{
+padding-bottom: 15px;
+
+}
+
+
+
+
+
+
+
+.convidam{
+  padding-top: 20px;
+}
+
+.convidam, .local{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.convidam p,.local p{
+  text-align: center;
+}
+
+
+.dataimg{
+padding-top: 20px;
+  width: 100%;
+  margin: 0 auto !important ;
+
+
+ max-width: 300px;
+}
+
+
+.endereco{
+  font-weight: bold;
+}
+
+
+
+.links{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding-top: 20px;
+
+z-index: 2;
+position: relative;
+flex-wrap: wrap;
+
+text-align: center;
+  
+}
+
+.links p{
+  font-size: 0.6rem !important;
+}
+
+
+footer{
+  text-align: center;
+  padding-top: 10px;
+  display: flex;
+  display: flex;
+  justify-content: center;
+
+}
+
+body{
+  position: relative;
+  background: #ffffff;
+  background-image: url("../img/textura.png");
+}
+
+
+footer p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+@media(min-width:700px){
+  .nomes{
+    align-items: center;
+  }
+  .convidam, .local{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .convidam p,.local p{
+    text-align: center;
+  }
+
+
+
+ 
+}
+
+.copy-button{
+  background-color: transparent;
+  border: none;
+  
+  
+}
+
+#copy-message{
+text-align: center;
+font-weight: bold;
+
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+.an{
+  width: 60px;
+
+}
+
+.logo{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo p{
+  font-size: 0.5rem;
+}
+
+.bencao{
+  padding-bottom: 30px;
+}
+
+.frase{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 5px;
+ 
+
+}
+
+.isto{
+  padding-bottom: 20px;
+}
+
+
+
+body{
+  position: relative;
+}
+
+body::before{
+  content: "";
+  width: 100%;
+  height: 115px;
+  
+  background-image: url("../img/flor2.png");
+  background-repeat: no-repeat;
+  background-position: right; /* Garante que a imagem fique no fundo */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.background::before {
+  content: "";
+  display: block;
+  width: 100%;
+  background-repeat: no-repeat;
+  top: 0;
+  height: 114px;
+  left: 0;
+  background-image: url("../img/flor.png");
+  position: absolute;
+}
+
+
+
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 3; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(194, 34, 124, 0.3); 
+
+}
+
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+ 
+  width: 80%; 
+  max-width: 600px;
+
+
+}
+
+.modal-content.show {
+  transform: translateY(0); /* Volta para a posição original */
+}
+
+.close {
+  color: #c2227c;
+  float: right;
+  font-size: 28px;
+  height: 50px;
+  width: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal h2{
+padding-bottom: 20px;
+}
+.modal .subtitulo{
+
+  font-weight: bold;
+  padding-top: 20px;
+  }
+
+  .modal a{
+
+    font-weight: bold;
+
+    }
+
+    .iconestoque{
+      text-align: center;
+       display: flex; 
+       align-items: center;
+       justify-content: center;
+  
+
+    }
+
+    .iconestoque img{
+
+ padding-right: 5px;
+     
+    }
+
+    .frase p{
+      text-transform: uppercase;
+      font-size: 0.5rem !important;
+    }
+
+
+    .data{
+      padding-top: 20px;
+    color: #d4b896;
+    font-size: 1rem;
+    }
+
+    .espaco{
+      padding-top: 20px;
+    }

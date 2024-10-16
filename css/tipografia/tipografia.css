@@ -1,0 +1,39 @@
+
+.font-1 {
+   font: 2.5rem 'Halant', cursive;
+  
+}
+.font-1-p {
+    font:0.8rem 'Halant', cursive;
+   
+ }
+ .font-1-p2 {
+    font:0.7rem 'Halant', cursive;
+   
+ }
+ .font-1-m {
+    font:1rem 'Halant', cursive;
+   
+ }
+
+
+.font-2 {
+    font: 2rem "melisenda", serif !important;
+    
+}
+
+.font-1-p3{
+    font:1rem 'Halant', cursive;
+}
+
+@font-face {
+    font-family: melisenda;
+    src: url("melisenda-script.ttf");
+}
+
+/* @media(min-width:355px) {
+    .font-2 {
+        font: 3.9rem "HighSpirited", sans-serif;
+        background-color: red;
+    }
+} */
